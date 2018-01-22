@@ -215,9 +215,9 @@ pre {
 <body>
 
 <section class='container'>
-          <hgroup>
+          
           <h1>You have been selected to die. Have fun in</h1> <h6>Hell</h6>
-          </hgroup>
+        
 
 
         <div class="row">
@@ -287,7 +287,6 @@ $ git push</pre>
                 <p>Page view count:
                 <% if (pageCountMessage) { %>
                    <span class="code" id="count-value"><%=pageCountMessage%></span>
-                   </p>
                     <div class="code"><h3>DB Connection Info:</h3>
                       <table style='margin-left: 20px'>
                           <tr><td>Type:</td><td><%= dbInfo.type %></td></tr>
@@ -297,7 +296,7 @@ $ git push</pre>
                 <% } else { %>
                    <span class="code" id="count-value">No database configured</span>
                    </p>
-                <%} %>
+                
           </section>
         </div>
 
